@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_5fd11afb1b818d10b81fdce7cc4bcb15</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Home)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "fieldType": "choice",
+        "interfaceApiName": "global.modal",
+        "label": "Modal",
+        "name": "modalId",
+        "type": "choice"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "string",
+        "interfaceApiName": "global.modal",
+        "label": "Header Label",
+        "name": "headerLabel",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "interfaceApiName": "global.modal",
+        "label": "Open modal dialog",
+        "name": "showModal",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "interfaceApiName": "global.modal",
+        "label": "Preserve modal state",
+        "name": "preserveState",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.modal",
+        "label": "Display options (advanced)",
+        "name": "displayOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "disableDismiss": {
+                        "type": "boolean"
+                    },
+                    "size": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "interfaceApiName": "global.modal",
+        "label": "Use bare modal",
+        "name": "bare",
+        "type": "boolean",
+        "typeMetadata": {
+            "schema": {
+                "type": "boolean"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "disabled": true,
+        "fieldType": "string",
+        "interfaceApiName": "global.modal",
+        "label": "Viewport ID",
+        "name": "viewportElementId",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "disabled": true,
+        "fieldType": "string",
+        "interfaceApiName": "global.modal",
+        "label": "Viewport Route",
+        "name": "viewportRoute",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.modal",
+        "label": "Viewport Fields",
+        "name": "viewportFields",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.modal",
+        "label": "Viewport Params",
+        "name": "viewportParams",
+        "type": "json",
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Header Label",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Preserve modal state",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Params",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 02:02:39</sys_created_on>
+        <sys_id>c6f03e21839a5210aaa7c810feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Home)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_c6f03e21839a5210aaa7c810feaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 02:02:39</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6f03e21839a5210aaa7c810feaad3f9"/>
+</record_update>
